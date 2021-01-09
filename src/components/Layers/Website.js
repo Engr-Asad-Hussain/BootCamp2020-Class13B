@@ -9,7 +9,7 @@ function Website() {
             { transform: 'scale(1)' }
         ],
         timing: {
-            ...timing,
+            duration: 1000,
             iterations: Infinity
         }
     });
