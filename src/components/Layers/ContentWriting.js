@@ -18,7 +18,7 @@ function ContentWriting() {
     return (
         <div className="cont-cw">
             <div className="cw-logo">
-                <img src={logo} alt="cw-image" ref={ref} />
+                <img src={logo} alt="cw-design" ref={ref} />
             </div>
             <div className="cw-des">
                 <h1>Content Writing</h1>
