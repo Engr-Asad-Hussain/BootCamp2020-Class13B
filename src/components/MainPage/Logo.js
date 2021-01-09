@@ -30,9 +30,9 @@ function Logo() {
     
     return (
         <div className="logo">
-            <img id="brain" src={brain} ref={brainRef.ref} />
-            <img id="frontLayer" src={frontLayer} ref={layerRef.ref} />
-            <img id="feature" src={feature} />
+            <img id="brain" src={brain} alt="brain" ref={brainRef.ref} />
+            <img id="frontLayer" src={frontLayer} alt="brain" ref={layerRef.ref} />
+            <img id="feature" alt="brain" src={feature} />
         </div>
     );
 }

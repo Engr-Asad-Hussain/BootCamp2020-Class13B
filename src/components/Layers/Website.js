@@ -1,9 +1,7 @@
-import react from 'react';
 import logo from '../../images/services-7.svg';
-import useWebAnimations, { heartBeat } from '@wellyshen/use-web-animations';
+import useWebAnimations from '@wellyshen/use-web-animations';
 
 function Website() {
-    let { keyframes, timing } = heartBeat;
     let { ref } = useWebAnimations({
         keyframes: [
             { transform: 'scale(1)' },
@@ -40,7 +38,7 @@ function Website() {
                 </ul>
             </div>
             <div className="web-logo">
-                <img src={logo} ref={ref} />
+                <img src={logo} alt="website" ref={ref} />
             </div>
         </div>
     );

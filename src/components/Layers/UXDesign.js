@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from '../../images/services-6.svg';
-import useWebAnimations, { heartBeat } from '@wellyshen/use-web-animations';
+import useWebAnimations from '@wellyshen/use-web-animations';
 
 function UXDesign() {
-    let { keyframes, timing } = heartBeat;
     let { ref } = useWebAnimations({
         keyframes: [
             { transform: 'scale(1)' },
@@ -19,7 +18,7 @@ function UXDesign() {
     return (
         <div className="cont-ux">
             <div className="ux-logo">
-                <img src={logo} ref={ref} />
+                <img src={logo} alt="ux-logo" ref={ref} />
             </div>
             <div className="ux-des">
                 <h1>UX Writing</h1>

@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from '../../images/services-5.svg';
-import useWebAnimations, { heartBeat } from '@wellyshen/use-web-animations';
+import useWebAnimations from '@wellyshen/use-web-animations';
 
 function ContentWriting() {
-    let { keyframes, timing } = heartBeat;
     let { ref } = useWebAnimations({
         keyframes: [
             { transform: 'scale(1)' },
@@ -19,7 +18,7 @@ function ContentWriting() {
     return (
         <div className="cont-cw">
             <div className="cw-logo">
-                <img src={logo} ref={ref} />
+                <img src={logo} alt="cw-image" ref={ref} />
             </div>
             <div className="cw-des">
                 <h1>Content Writing</h1>

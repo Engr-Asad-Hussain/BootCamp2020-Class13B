@@ -45,7 +45,7 @@ function Avatars() {
                 {Object.keys(itemsAvatars).map( (object, index)=>{
                     return (
                         <div className="avatar-sample" id={`id${index}`} key={index}>
-                            <img src={itemsAvatars[object].img} onClick={
+                            <img src={itemsAvatars[object].img} alt="avatars" onClick={
                                 ()=>{
                                     setValues(object);
                                     Animations(index);
